@@ -11,6 +11,7 @@
     "underscore": "^1.13.6"
   },
   "scripts": {
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "name": "goodfoodhunting",
