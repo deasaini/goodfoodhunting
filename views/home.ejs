@@ -1,0 +1,14 @@
+
+    <h1>Goodfood Hunting</h1>
+
+   
+    <section class="dishes">
+        <% for (let dish of dishes) { %>
+
+        <div class="ui-card">
+            <img src="<%= dish.image_url %>" alt="" />
+            <h2><a href="/dishes/<%= dish.id %>"><%= dish.title %></a></h2>
+          </div>
+          <% } %>
+        </section>
+        
